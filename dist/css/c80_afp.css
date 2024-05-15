@@ -841,7 +841,7 @@ header#inicio .mobileNav {
     padding: 12px;
     border-bottom: 1px solid #ccc;
     text-decoration: none;
-    color: #333;
+    color: #777;
   }
   header#inicio .mobileNav ul li:last-child a {
     border-bottom: none;
