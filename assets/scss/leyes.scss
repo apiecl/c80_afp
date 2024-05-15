@@ -1,0 +1,27 @@
+.c80_afp-section#leyes {
+  > div {
+    max-width: 1280px;
+    .wp-block-column:first-child {
+      display: grid;
+      gap: 12px;
+      justify-content: space-between;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .wp-block-column {
+      h2 {
+        text-align: left;
+        font-size: 18px;
+        width: 200px;
+      }
+      img {
+        width: 120px;
+        height: auto;
+      }
+      ol {
+        li {
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+}

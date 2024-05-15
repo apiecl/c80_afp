@@ -1,0 +1,24 @@
+//Color variables
+
+$palette: (
+  "saturated_blue": #4c89ff,
+  "saturated_red": #ff3535,
+  "dark_red": #bf362f,
+  "background_blue_light": #103045,
+  "background_blue_dark": #092132,
+  "background_blue_lighter": #366b99,
+  "graph_green": #1ba0aa,
+  "graph_red": #d02427,
+  "graph_purple": #ec0ff0,
+  "graph_blue": #0e78f4,
+  "graph_orange": #e35e26,
+);
+
+$fonts: (
+  "heading_xl": "36px",
+  "heading_lg": "24px",
+  "headings": "Merriweather",
+  "body_text": "Lato",
+);
+
+$content_width: 736px;

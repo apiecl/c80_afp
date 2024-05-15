@@ -1,0 +1,107 @@
+[
+  {
+    "grupo_economico": "Luksic",
+    "total_usd": 7877,
+    "perc_nacional": "18,2%",
+    "empresas": "Banco de Chile, Canal 13, Antofagasta Minerals, CCU",
+    "color": "#FF2424"
+  },
+  {
+    "grupo_economico": "Said",
+    "total_usd": 6483,
+    "perc_nacional": "15,0%",
+    "empresas": "Scotiabank, Parque Arauco S.A., Embotelladora Andina S.A.",
+    "color": "#FF8800"
+  },
+  {
+    "grupo_economico": "Saieh",
+    "total_usd": 5509,
+    "perc_nacional": "12,8%",
+    "empresas": "SMU (Unimarc), VIVO Mall, Itaú-Corpbanca, Copesa",
+    "color": "#FFC502"
+  },
+  {
+    "grupo_economico": "Yarur",
+    "total_usd": 5164,
+    "perc_nacional": "12,0%",
+    "empresas": "BCI",
+    "color": "#BB80FF"
+  },
+  {
+    "grupo_economico": "Matte",
+    "total_usd": 4731,
+    "perc_nacional": "11,0%",
+    "empresas": "CMPC, Banco Bice, Entel",
+    "color": "#00BE79"
+  },
+  {
+    "grupo_economico": "Solari",
+    "total_usd": 2774,
+    "perc_nacional": "6,4%",
+    "empresas": "Falabella, Mega, Sodimac, Colmena, Azul Azul",
+    "color": "#FF565B"
+  },
+  {
+    "grupo_economico": "Paulmann",
+    "total_usd": 2537,
+    "perc_nacional": "5,9%",
+    "empresas": "Santa Isabel, Jumbo, Easy, Paris",
+    "color": "#00B0FF"
+  },
+  {
+    "grupo_economico": "Security",
+    "total_usd": 2231,
+    "perc_nacional": "5,2%",
+    "empresas": "Banco Security",
+    "color": "#79AD00"
+  },
+  {
+    "grupo_economico": "Angelini",
+    "total_usd": 2221,
+    "perc_nacional": "5,1%",
+    "empresas": "Copec S.A., Celulosa Arauco",
+    "color": "#FF55DA"
+  },
+  {
+    "grupo_economico": "Consorcio",
+    "total_usd": 634,
+    "perc_nacional": "1,5%",
+    "empresas": "Banco Consorcio",
+    "color": "#00BFCD"
+  },
+  {
+    "grupo_economico": "Ponce Lerou",
+    "total_usd": 602,
+    "perc_nacional": "1,4%",
+    "empresas": "SQM",
+    "color": "#ED7F00"
+  },
+  {
+    "grupo_economico": "CCHC",
+    "total_usd": 411,
+    "perc_nacional": "1,0%",
+    "empresas": "AFP Habitat, Red Salud",
+    "color": "#6897FF"
+  },
+  {
+    "grupo_economico": "LarrainVial",
+    "total_usd": 390,
+    "perc_nacional": "0,9%",
+    "empresas": "Larrain Vial Activos",
+    "color": "#00BA44"
+  },
+  {
+    "grupo_economico": "Otros",
+    "total_usd": 1606,
+    "perc_nacional": "3,7%",
+    "empresas": "Ripley, Viña Concha y Toro, Agrosuper, AFP Modelo, Vital S.A., Carozzi, Ambrosoli, Lipigas, Telefónica del Sur, Gasco.",
+    "color": "#FF448B"
+  },
+  {
+    "grupo_economico": "Total",
+    "total_usd": 43170,
+    "perc_nacional": "100%",
+    "empresas": "",
+    "color": "#00B8FF"
+  }
+]

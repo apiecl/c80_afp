@@ -1,0 +1,443 @@
+@use "sass:map";
+
+@import "./variables.scss";
+@import "./directores.scss";
+@import "./empresas.scss";
+@import "./menu.scss";
+@import "./leyes.scss";
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&family=Lato:ital,wght@0,400;0,700;1,400&family=Merriweather:wght@400;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-family: map.get($fonts, body_text);
+  padding: 0;
+  margin: 0;
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: map.get($fonts, headings);
+  }
+}
+
+.diagrama_afp_mobile {
+  display: none;
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.diagrama-afp-desktop {
+  display: none;
+  @media (min-width: 769px) {
+    display: block;
+    margin-left: calc(-80vw / 2 + $content_width / 2) !important;
+    margin-right: calc(-80vw / 2 + $content_width / 2) !important;
+    figure {
+      max-width: 736px;
+    }
+  }
+}
+
+.diagrama_afp_mobile,
+.diagrama-afp-desktop {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.c80_afp-section {
+  border-bottom: 3px solid map.get($palette, saturated_red);
+  padding: 24px 0;
+
+  @media (max-width: 768px) {
+    padding: 12px;
+  }
+
+  > div {
+    max-width: 736px;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+
+    h1,
+    h2,
+    h3 {
+      text-align: center;
+    }
+
+    h3.c80_afp-subheading {
+      text-align: left;
+      font-family: map.get($fonts, body_text);
+      background-color: white;
+      display: inline-block;
+      padding: 3px;
+      color: map.get($palette, background_blue_dark);
+    }
+
+    h2 {
+      margin-bottom: 36px;
+      font-weight: 700;
+      font-size: 36px;
+      &.c80_afp-heading {
+        overflow: hidden;
+        text-align: center;
+        padding: 0 40px;
+        background-image: url("data:image/svg+xml,%3Csvg width='160' height='4' viewBox='0 0 160 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M160 2H0' stroke='%234C89FF' stroke-width='3'/%3E%3C/svg%3E%0A");
+        background-position: 50%;
+        background-repeat: repeat-x;
+        span {
+          background-color: map.get($palette, background_blue_dark);
+          display: inline-block;
+        }
+        @media (min-width: 1200px) {
+          margin-left: -60px;
+          margin-right: -60px;
+        }
+      }
+    }
+  }
+
+  ol li,
+  ul li {
+    margin-bottom: 12px;
+  }
+}
+
+.c80_afp-inicio {
+  border-bottom: 3px solid map.get($palette, saturated_red);
+  > div {
+    max-width: $content_width;
+    margin: 0 auto;
+
+    h1 {
+      font-weight: 900;
+      font-size: 36px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+}
+
+.afp-app-body {
+  background-color: map-get($palette, background_blue_dark);
+  color: white;
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.4em;
+    a {
+      color: white;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
+}
+
+.afp-timeline-wrapper#afp_timeline {
+  > div {
+    min-height: 500px;
+  }
+  @media (min-width: 1200px) {
+    margin-left: calc(-98vw / 2 + $content_width / 2) !important;
+    margin-right: calc(-98vw / 2 + $content_width / 2) !important;
+  }
+
+  .tl-slider-container-mask {
+    background-color: map.get($palette, background_blue_light);
+  }
+
+  .tl-slidenav-title,
+  .tl-slidenav-icon,
+  .tl-slidenav-description {
+    text-shadow: none;
+    color: white;
+  }
+
+  .tl-headline {
+    color: white;
+    line-height: 1.2em;
+  }
+
+  .tl-timegroup-message {
+    text-shadow: none;
+  }
+
+  .tl-timegroup-politico-social {
+    background-color: rgba(255, 255, 255, 0.3);
+    .tl-timegroup-message {
+      color: #333;
+    }
+  }
+
+  .tl-text {
+    color: white;
+  }
+
+  .tl-headline-date {
+    color: white;
+  }
+
+  .tl-timenav,
+  .tl-timegroup.tl-timegroup-alternate,
+  .tl-timeaxis-background {
+    background-color: map.get($palette, background_blue_light);
+  }
+
+  .tl-timemarker-active .tl-timemarker-content-container {
+    background-color: map.get($palette, dark_red);
+  }
+
+  .tl-timemarker.tl-timemarker-active .tl-timemarker-timespan {
+    background-color: transparentize(map.get($palette, dark_red), 0.8);
+  }
+
+  .tl-timemarker-content-container,
+  .tl-timemarker-content-container:focus,
+  .tl-timemarker-content-container:hover {
+    background-color: desaturate(map.get($palette, dark_red), 20%);
+    border: 0;
+    border-radius: 0;
+    color: white;
+  }
+
+  .tl-slide {
+    padding: 0 48px;
+
+    .tl-slide-content {
+      direction: ltr;
+      .tl-caption {
+        color: white;
+      }
+      .tl-text {
+        h2,
+        h3 {
+          text-align: left;
+        }
+        p {
+          color: white;
+        }
+        @media (min-width: 1200px) {
+          padding-right: 120px;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      padding: 0;
+      .tl-media-content {
+        max-width: 120px;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .tl-headline {
+        font-size: 22px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+div.c80_chart {
+  min-height: 708px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  //width: 100%;
+  p.postlegend {
+    text-align: center;
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: calc(-1068px / 2 + $content_width / 2);
+    margin-right: calc(-1068px / 2 + $content_width / 2);
+  }
+  @media (max-width: 768px) {
+    overflow: scroll;
+    > div {
+      width: 908px;
+    }
+    &[data-grafico="inversiones"] {
+      > div {
+        min-height: 700px;
+      }
+    }
+  }
+
+  &[data-grafico="inversiones"] > div.chart_container {
+    min-height: 700px;
+  }
+
+  &[data-grafico="pensiones-pagadas"] {
+    min-height: 300px;
+  }
+
+  &[data-grafico="pensiones-pagadas"] > div.chart_container,
+  &[data-grafico="comparativa-resumen"] > div.chart_container {
+    min-height: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  &[data-grafico="comparativa-pensiones"] > div.chart_container {
+    min-height: 800px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
+  &[data-grafico="comparativa-pensiones"] > div.chart_legend {
+    .extralegend {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      p {
+        display: flex;
+        gap: 6px;
+        &::before {
+          display: block;
+          content: "";
+          width: 16px;
+          height: 16px;
+          border-radius: 3px;
+        }
+        &.red::before {
+          background-color: #d02427;
+        }
+        &.blue::before {
+          background-color: #0e78f4;
+        }
+        &.purple::before {
+          background-color: #d511dd;
+        }
+      }
+    }
+  }
+
+  div.chart_legend {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+div.c80_diagram {
+  @media (min-width: 1200px) {
+    margin-left: calc(-1068px / 2 + $content_width / 2);
+    margin-right: calc(-1068px / 2 + $content_width / 2);
+  }
+}
+
+.c80_afp-section#conclusiones {
+  background-color: #133550;
+  padding-bottom: 48px;
+}
+
+.c80_afp-section#conflictos {
+  > div {
+    max-width: 960px;
+  }
+}
+
+#footer {
+  > div {
+    max-width: 1200px;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      padding: 12px;
+    }
+
+    ul {
+      margin: 0 0 24px 0;
+      padding: 0;
+    }
+    ul li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 6px;
+    }
+  }
+}
+
+header#inicio {
+  flex-direction: column;
+  .mobileNav {
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+      width: 100%;
+      z-index: 10;
+      color: #333;
+      text-align: center;
+      margin: 0 -12px;
+      span {
+        display: block;
+        padding: 12px;
+        background-color: white;
+        border-bottom: 1px solid #ccc;
+        cursor: pointer;
+        position: relative;
+        &:after {
+          content: "";
+          width: 18px;
+          height: 18px;
+          display: block;
+          background-image: url(../../assets/img/chevron.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          position: absolute;
+          right: 12px;
+          top: 16px;
+          transition: all ease 0.3s;
+          transform-origin: 9px;
+        }
+        &.active {
+          &:after {
+            transform: rotate(180deg);
+          }
+        }
+      }
+      ul {
+        height: 0;
+        padding: 0;
+        margin: 0 6px;
+        border-radius: 0 0 6px 6px;
+        background-color: white;
+        &.active {
+          height: auto;
+        }
+        li {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          a {
+            display: block;
+            padding: 12px;
+            border-bottom: 1px solid #ccc;
+            text-decoration: none;
+            color: #333;
+          }
+        }
+        li:last-child a {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}

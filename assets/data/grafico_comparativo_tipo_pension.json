@@ -1,0 +1,26 @@
+{
+  "categories": [
+    "PGU",
+    "Vejez* (Autofinanciado + PGU)",
+    "Vejez* (entre 25 y 30 años cotización)",
+    "Vejez* (Hombres)",
+    "Vejez* (Mujeres)",
+    "Vejez autofinanciado",
+    "Vejez autofinanciado (25 y 30)",
+    "Vejez autofinanciado (hombres)",
+    "Vejez autofinanciado (mujeres)",
+    "Total CAPREDENA",
+    "Total DIPRECA",
+    "Carabineros",
+    "Gendarmería",
+    "Investigaciones"
+  ],
+  "numero_pensiones": [
+    1767717, 1058805, 166497, 589182, 469623, 1058805, 166497, 589182, 469623,
+    71199, 44623, 33053, 5653, 5406
+  ],
+  "monto_promedio": [
+    193917, 400745, 452375, 478365, 303808, 301700, 348413, 361759, 226187,
+    1250794, 1476267, 1338798, 1813389, 1977825
+  ]
+}

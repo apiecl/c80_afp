@@ -1,0 +1,161 @@
+//Directores
+@use "sass:map";
+@import "./variables.scss";
+
+[data-diagram="directores"] {
+  .directoresYearsWrap {
+    position: sticky;
+    top: 0;
+    padding-top: 36px;
+    z-index: 10;
+  }
+
+  .directoresYearsLegend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0 50px 0;
+    p {
+      display: flex;
+      align-items: center;
+    }
+    p::before {
+      content: "";
+      width: 12px;
+      height: 12px;
+      display: block;
+      background-color: map.get($palette, graph_green);
+      margin-right: 12px;
+    }
+
+    p.privado::before {
+      background-color: map.get($palette, graph_red);
+    }
+  }
+
+  .directoresYears {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    .directoresYearsLeft {
+      width: 35%;
+      min-width: 260px;
+    }
+    .directoresYearsRight {
+      width: 65%;
+      min-width: 600px;
+      display: flex;
+    }
+  }
+  .yearTick {
+    height: 24px;
+    width: 12px;
+    border-left: 1px solid white;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    &.yearTickLabel {
+      height: 48px;
+      &::before {
+        position: absolute;
+        top: -20px;
+        left: -16px;
+        content: attr(data-year);
+        font-size: 12px;
+      }
+    }
+  }
+
+  .personrow {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0;
+
+    .infocol {
+      h4 {
+        margin: 0;
+        font-family: map.get($fonts, body_text);
+        height: 24px;
+      }
+      width: 35%;
+      min-width: 260px;
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          list-style: none;
+          height: 24px;
+          margin: 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 14px;
+          color: #9df8ff;
+          &.cargo_afp {
+            color: #ff9797;
+          }
+        }
+      }
+    }
+  }
+  .datacol {
+    min-width: 600px;
+    .data-row {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      flex-grow: 0;
+      width: 100%;
+      height: 24px;
+      margin: 0;
+      span {
+        display: block;
+        width: 12px;
+        height: 24px;
+        position: relative;
+        box-sizing: border-box;
+        &:nth-child(5n + 1) {
+          width: 12px;
+          border-left: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        &.on {
+          &::after {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            display: block;
+            content: "";
+            background-color: map.get($palette, graph_green);
+          }
+        }
+      }
+      &.filler-row {
+        span.on::after {
+          background-color: transparent;
+        }
+      }
+      &.afp-row {
+        margin-top: 0;
+        span {
+          &.on {
+            &::after {
+              position: absolute;
+              width: 12px;
+              height: 12px;
+              display: block;
+              content: "";
+              background-color: map.get($palette, graph_red);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+[data-diagram="directores"] {
+  @media (max-width: 768px) {
+    max-width: 100%;
+    overflow-x: scroll;
+  }
+}

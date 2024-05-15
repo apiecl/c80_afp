@@ -1,0 +1,16 @@
+{
+  "name": "c80_afp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./assets/scss/main.scss ./dist/css/c80_afp.css",
+    "sass:watch": "sass --watch ./assets/scss/main.scss ./dist/css/c80_afp.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^5.4.3",
+    "sass": "^1.69.5"
+  }
+}

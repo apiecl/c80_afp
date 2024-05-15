@@ -1,0 +1,873 @@
+[
+  {
+    "nombre": "Guillermo Arthur",
+    "cargo_afp": {
+      "afp": "Capital",
+      "periodo": {
+        "inicio": 2012,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro del Trabajo",
+        "periodo": {
+          "inicio": 1988,
+          "fin": 1989
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Raphael Bergoeing",
+    "cargo_afp": {
+      "afp": "Cuprum",
+      "periodo": {
+        "inicio": 2019,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Concejal Providencia",
+        "periodo": {
+          "inicio": 2021,
+          "fin": 2024
+        }
+      },
+      {
+        "cargo": "Presidente Metro",
+        "periodo": {
+          "inicio": 2010,
+          "fin": 2011
+        }
+      },
+      {
+        "cargo": "Superintendente de Bancos e Instituciones Financieras",
+        "periodo": {
+          "inicio": 2011,
+          "fin": 2014
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Luis Ernesto Silva",
+    "cargo_afp": {
+      "afp": "Cuprum",
+      "periodo": {
+        "inicio": 2010,
+        "fin": 2011
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Encargado estudios ODEPLAN",
+        "periodo": {
+          "inicio": 1973,
+          "fin": 1978
+        }
+      },
+      {
+        "cargo": "Vicepresidente Cochilco",
+        "periodo": {
+          "inicio": 1978,
+          "fin": 1979
+        }
+      },
+      {
+        "cargo": "Gerente General ENAP",
+        "periodo": {
+          "inicio": 1979,
+          "fin": 1983
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Hugo Lavados",
+    "cargo_afp": {
+      "afp": "Cuprum",
+      "periodo": {
+        "inicio": 2013,
+        "fin": 2018
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro economía",
+        "periodo": {
+          "inicio": 2008,
+          "fin": 2010
+        }
+      },
+      {
+        "cargo": "Superintendente SVS",
+        "periodo": {
+          "inicio": 1990,
+          "fin": 1994
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "María Teresa Infante",
+    "cargo_afp": {
+      "afp": "Habitat",
+      "periodo": {
+        "inicio": 1995,
+        "fin": 2013
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Subsecretaria Previsión Social",
+        "periodo": {
+          "inicio": 1985,
+          "fin": 1990
+        }
+      },
+      {
+        "cargo": "Ministra del Trabajo",
+        "periodo": {
+          "inicio": 1989,
+          "fin": 1990
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Juan Benavides",
+    "cargo_afp": {
+      "afp": "Habitat",
+      "periodo": {
+        "inicio": 2014,
+        "fin": 2019
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Presidente Codelco",
+        "periodo": {
+          "inicio": 2018,
+          "fin": 2022
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Klaus Schmidt-Hebbel",
+    "cargo_afp": {
+      "afp": "Habitat",
+      "periodo": {
+        "inicio": 2010,
+        "fin": 2016
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Asesor Ministerio de Hacienda",
+        "periodo": {
+          "inicio": 2009,
+          "fin": 2009
+        }
+      },
+      {
+        "cargo": "Presidente Comité Financiero Asesor Min. Hacienda",
+        "periodo": {
+          "inicio": 2011,
+          "fin": 2011
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "María Cristina Bitar",
+    "cargo_afp": {
+      "afp": "Provida",
+      "periodo": {
+        "inicio": 2015,
+        "fin": 2022
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Jefa Departamento APEC Min. RR.EE.",
+        "periodo": {
+          "inicio": 1994,
+          "fin": 1996
+        }
+      },
+      {
+        "cargo": "Asesora Ministerio de Hacienda",
+        "periodo": {
+          "inicio": 1992,
+          "fin": 1994
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Osvaldo Puccio",
+    "cargo_afp": {
+      "afp": "Provida",
+      "periodo": {
+        "inicio": 2015,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Embajador Austria",
+        "periodo": {
+          "inicio": 1994,
+          "fin": 2000
+        }
+      },
+      {
+        "cargo": "Embajador Brasil",
+        "periodo": {
+          "inicio": 2003,
+          "fin": 2005
+        }
+      },
+      {
+        "cargo": "Embajador España",
+        "periodo": {
+          "inicio": 2006,
+          "fin": 2008
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Jorge Marshall",
+    "cargo_afp": {
+      "afp": "Provida",
+      "periodo": {
+        "inicio": 2015,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro de economía",
+        "periodo": {
+          "inicio": 1990,
+          "fin": 1993
+        }
+      },
+      {
+        "cargo": "Consejero y vicepresidente Banco Central",
+        "periodo": {
+          "inicio": 1993,
+          "fin": 2003
+        }
+      },
+      {
+        "cargo": "Vicepresidente Banco Estado",
+        "periodo": {
+          "inicio": 2004,
+          "fin": 2008
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "María Eugenia Wagner",
+    "cargo_afp": {
+      "afp": "Provida",
+      "periodo": {
+        "inicio": 2018,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Subsecretaria de Hacienda",
+        "periodo": {
+          "inicio": 2000,
+          "fin": 2006
+        }
+      },
+      {
+        "cargo": "Directora de Empresa de Ferrocarriles del Estado",
+        "periodo": {
+          "inicio": 2000,
+          "fin": 2006
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Bernardo Fontaine",
+    "cargo_afp": {
+      "afp": "Bice",
+      "periodo": {
+        "inicio": 2011,
+        "fin": 2021
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Convencional Constituyente",
+        "periodo": {
+          "inicio": 2021,
+          "fin": 2022
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Bernardo Matte Larraín",
+    "cargo_afp": {
+      "afp": "Bice",
+      "periodo": {
+        "inicio": 2009,
+        "fin": 2011
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Director TVN",
+        "periodo": {
+          "inicio": 2000,
+          "fin": 2004
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Carlos Larraín Peña",
+    "cargo_afp": {
+      "afp": "CN Life",
+      "periodo": {
+        "inicio": 2010,
+        "fin": 2011
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Senador Los Lagos",
+        "periodo": {
+          "inicio": 2011,
+          "fin": 2014
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Hernan Buchi",
+    "cargo_afp": {
+      "afp": "CN Life",
+      "periodo": {
+        "inicio": 2010,
+        "fin": 2015
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro director ODEPLAN",
+        "periodo": {
+          "inicio": 1983,
+          "fin": 1984
+        }
+      },
+      {
+        "cargo": "Ministro de Hacienda",
+        "periodo": {
+          "inicio": 1985,
+          "fin": 1989
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Jorge Rodriguez Grossi",
+    "cargo_afp": {
+      "afp": "CN Life",
+      "periodo": {
+        "inicio": 2018,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro de Economía",
+        "periodo": {
+          "inicio": 2001,
+          "fin": 2006
+        }
+      },
+      {
+        "cargo": "Ministro de Economía",
+        "periodo": {
+          "inicio": 2017,
+          "fin": 2018
+        }
+      },
+      {
+        "cargo": "Presidente Banco Estado",
+        "periodo": {
+          "inicio": 2015,
+          "fin": 2017
+        }
+      },
+      {
+        "cargo": "Presidente Empresa de Ferrocarriles del Estado",
+        "periodo": {
+          "inicio": 2007,
+          "fin": 2010
+        }
+      },
+      {
+        "cargo": "Ministro de Energía",
+        "periodo": {
+          "inicio": 2001,
+          "fin": 2006
+        }
+      },
+      {
+        "cargo": "Presidente ejecutivo Codelco",
+        "periodo": {
+          "inicio": 1994,
+          "fin": 1994
+        }
+      },
+      {
+        "cargo": "Subsecretario de Hacienda",
+        "periodo": {
+          "inicio": 1991,
+          "fin": 1994
+        }
+      },
+      {
+        "cargo": "Subsecretario de Desarrollo Regional",
+        "periodo": {
+          "inicio": 1991,
+          "fin": 1991
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Alejandro Ferreiro",
+    "cargo_afp": {
+      "afp": "Confuturo",
+      "periodo": {
+        "inicio": 2011,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Superintendente de Isapres",
+        "periodo": {
+          "inicio": 1996,
+          "fin": 2000
+        }
+      },
+      {
+        "cargo": "Superintendente de AFP",
+        "periodo": {
+          "inicio": 2000,
+          "fin": 2003
+        }
+      },
+      {
+        "cargo": "Superintendente de Valores y Seguros",
+        "periodo": {
+          "inicio": 2003,
+          "fin": 2006
+        }
+      },
+      {
+        "cargo": "Ministro de Economía",
+        "periodo": {
+          "inicio": 2006,
+          "fin": 2008
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Alberto Etchegaray Aubury",
+    "cargo_afp": {
+      "afp": "Confuturo",
+      "periodo": {
+        "inicio": 2017,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro de Vivienda y Urbanismo",
+        "periodo": {
+          "inicio": 1990,
+          "fin": 1994
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Miguel Ángel Poduje",
+    "cargo_afp": {
+      "afp": "Confuturo",
+      "periodo": {
+        "inicio": 2011,
+        "fin": 2011
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro de Vivienda y Urbanismo",
+        "periodo": {
+          "inicio": 1984,
+          "fin": 1988
+        }
+      },
+      {
+        "cargo": "Ministro Secretario General de Gobierno",
+        "periodo": {
+          "inicio": 1988,
+          "fin": 1989
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "José de Gregorio",
+    "cargo_afp": {
+      "afp": "Consorcio",
+      "periodo": {
+        "inicio": 2013,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro Economía, Minería y Energía",
+        "periodo": {
+          "inicio": 2000,
+          "fin": 2001
+        }
+      },
+      {
+        "cargo": "Presidente Banco Central",
+        "periodo": {
+          "inicio": 2007,
+          "fin": 2011
+        }
+      },
+      {
+        "cargo": "Decano FEN U. de Chile",
+        "periodo": {
+          "inicio": 2018,
+          "fin": 2025
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Alfredo Moreno",
+    "cargo_afp": {
+      "afp": "Penta",
+      "periodo": {
+        "inicio": 2014,
+        "fin": 2018
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro de Relaciones Exteriores",
+        "periodo": {
+          "inicio": 2010,
+          "fin": 2014
+        }
+      },
+      {
+        "cargo": "Ministro de Desarrollo Social y Familia",
+        "periodo": {
+          "inicio": 2018,
+          "fin": 2019
+        }
+      },
+      {
+        "cargo": "Ministro de Obras Públicas",
+        "periodo": {
+          "inicio": 2019,
+          "fin": 2022
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "José Ramón Valente",
+    "cargo_afp": {
+      "afp": "Penta",
+      "periodo": {
+        "inicio": 2014,
+        "fin": 2018
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro de Economía",
+        "periodo": {
+          "inicio": 2018,
+          "fin": 2019
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Rodrigo Álvarez Zenteno",
+    "cargo_afp": {
+      "afp": "Principal",
+      "periodo": {
+        "inicio": 2017,
+        "fin": 2021
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Diputado Región de Magallanes",
+        "periodo": {
+          "inicio": 1998,
+          "fin": 2010
+        }
+      },
+      {
+        "cargo": "Ministro de Energía",
+        "periodo": {
+          "inicio": 2011,
+          "fin": 2012
+        }
+      },
+      {
+        "cargo": "Convencional Constituyente",
+        "periodo": {
+          "inicio": 2021,
+          "fin": 2022
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Francisco Javier Errázuriz",
+    "cargo_afp": {
+      "afp": "Renta Nacional",
+      "periodo": {
+        "inicio": 2010,
+        "fin": 2012
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Senador Región del Maule",
+        "periodo": {
+          "inicio": 1994,
+          "fin": 2002
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Hernán Errazuriz Correa",
+    "cargo_afp": {
+      "afp": "Zurich",
+      "periodo": {
+        "inicio": 2010,
+        "fin": 2021
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro de Minería",
+        "periodo": {
+          "inicio": 1981,
+          "fin": 1982
+        }
+      },
+      {
+        "cargo": "Ministro Secretario General de Gobierno",
+        "periodo": {
+          "inicio": 1982,
+          "fin": 1983
+        }
+      },
+      {
+        "cargo": "Presidente del Banco Central",
+        "periodo": {
+          "inicio": 1983,
+          "fin": 1984
+        }
+      },
+      {
+        "cargo": "Ministro de Relaciones Exteriores",
+        "periodo": {
+          "inicio": 1988,
+          "fin": 1990
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Edmundo Hermosilla",
+    "cargo_afp": {
+      "afp": "4Life",
+      "periodo": {
+        "inicio": 2020,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Ministro de Vivienda y Urbanismo",
+        "periodo": {
+          "inicio": 1994,
+          "fin": 1997
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Rodrigo Pérez Mackenna",
+    "cargo_afp": {
+      "afp": "4Life",
+      "periodo": {
+        "inicio": 2017,
+        "fin": 2020
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Intendente Región de O'Higgins",
+        "periodo": {
+          "inicio": 2010,
+          "fin": 2011
+        }
+      },
+      {
+        "cargo": "Ministro de Vivienda y Urbanismo",
+        "periodo": {
+          "inicio": 2011,
+          "fin": 2014
+        }
+      },
+      {
+        "cargo": "Ministro de Bienes Nacionales",
+        "periodo": {
+          "inicio": 2012,
+          "fin": 2014
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Ximena Rincón González",
+    "cargo_afp": {
+      "afp": "Provida",
+      "periodo": {
+        "inicio": 2006,
+        "fin": 2010
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Senadora Región del Maule",
+        "periodo": {
+          "inicio": 2018,
+          "fin": 2022
+        }
+      },
+      {
+        "cargo": "Ministra del Trabajo",
+        "periodo": {
+          "inicio": 2015,
+          "fin": 2016
+        }
+      },
+      {
+        "cargo": "Ministra Secretaria General de la Presidencia",
+        "periodo": {
+          "inicio": 2014,
+          "fin": 2015
+        }
+      },
+      {
+        "cargo": "Senadora Región del Maule",
+        "periodo": {
+          "inicio": 2010,
+          "fin": 2014
+        }
+      },
+      {
+        "cargo": "Intendenta de la RM de Santiago",
+        "periodo": {
+          "inicio": 2005,
+          "fin": 2006
+        }
+      },
+      {
+        "cargo": "Superintendenta de Seguridad Social",
+        "periodo": {
+          "inicio": 2005,
+          "fin": 2005
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Felipe del Río Goude",
+    "cargo_afp": {
+      "afp": "4Life",
+      "periodo": {
+        "inicio": 2020,
+        "fin": 2025
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Intendente Región de Coquimbo",
+        "periodo": {
+          "inicio": 2001,
+          "fin": 2006
+        }
+      }
+    ]
+  },
+  {
+    "nombre": "Sebastián Piñera Echeñique",
+    "cargo_afp": {
+      "afp": "Provida",
+      "periodo": {
+        "inicio": 1989,
+        "fin": 1989
+      }
+    },
+    "cargo_publico": [
+      {
+        "cargo": "Senador Santiago Oriente",
+        "periodo": {
+          "inicio": 1990,
+          "fin": 1998
+        }
+      },
+      {
+        "cargo": "Presidente de la República",
+        "periodo": {
+          "inicio": 2010,
+          "fin": 2014
+        }
+      },
+      {
+        "cargo": "Presidente de la República",
+        "periodo": {
+          "inicio": 2018,
+          "fin": 2022
+        }
+      }
+    ]
+  }
+]

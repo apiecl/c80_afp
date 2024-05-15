@@ -1,0 +1,23 @@
+[
+  {
+    "grupo": "Hombre",
+    "total_con_pgu_aps": 398429,
+    "total_sin_pgu_aps": 213010,
+    "entre_30_35_con_pgu_aps": 490770,
+    "entre_30_35_sin_pgu_aps": 306455
+  },
+  {
+    "grupo": "Mujer",
+    "total_con_pgu_aps": 232141,
+    "total_sin_pgu_aps": 151204,
+    "entre_30_35_con_pgu_aps": 421974,
+    "entre_30_35_sin_pgu_aps": 280335
+  },
+  {
+    "grupo": "Total",
+    "total_con_pgu_aps": 343245,
+    "total_sin_pgu_aps": 185418,
+    "entre_30_35_con_pgu_aps": 465385,
+    "entre_30_35_sin_pgu_aps": 295419
+  }
+]
