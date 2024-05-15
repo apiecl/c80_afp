@@ -8,7 +8,7 @@ on:
   # Triggers the workflow on push request event 
   # but only for the specific branch
   push:
-    branches: [ main ]
+    branches: [ release ]
 
 # A workflow run is made up of one or more jobs 
 # that can run sequentially or in parallel
@@ -54,4 +54,4 @@ jobs:
           remote-path: /lamp0/web/vhosts/c80.cl/htdocs/wp-content/plugins/c80_afp
 
           # Port for SFTP access to server
-          remote-port: 221
+          remote-port: 22
