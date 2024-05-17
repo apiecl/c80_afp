@@ -581,7 +581,7 @@ body h4 {
 }
 
 .afp-timeline-wrapper#afp_timeline > div {
-  min-height: 500px;
+  min-height: 800px;
 }
 @media (min-width: 1200px) {
   .afp-timeline-wrapper#afp_timeline {

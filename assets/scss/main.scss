@@ -151,7 +151,7 @@ body {
 
 .afp-timeline-wrapper#afp_timeline {
   > div {
-    min-height: 500px;
+    min-height: 800px;
   }
   @media (min-width: 1200px) {
     margin-left: calc(-98vw / 2 + $content_width / 2) !important;

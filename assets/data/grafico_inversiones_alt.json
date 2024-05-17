@@ -1,0 +1,40 @@
+{
+  "total_usd": [
+    7877, 6483, 5509, 5164, 4731, 2774, 2537, 2231, 2221, 634, 602, 411, 390,
+    1606, 43170
+  ],
+  "grupo_economico": [
+    "Lucsic",
+    "Said",
+    "Saieh",
+    "Yarur",
+    "Matte",
+    "Solari",
+    "Paulmann",
+    "Security",
+    "Angelini",
+    "Consorcio",
+    "Ponce Lerou",
+    "CCHC",
+    "LarrainVial",
+    "Otros",
+    "Total"
+  ],
+  "colors": [
+    "#FF2424",
+    "#FF8800",
+    "#FFC502",
+    "#BB80FF",
+    "#00BE79",
+    "#FF565B",
+    "#00B0FF",
+    "#79AD00",
+    "#FF55DA",
+    "#00BFCD",
+    "#ED7F00",
+    "#6897FF",
+    "#00BA44",
+    "#FF448B",
+    "#00B8FF"
+  ]
+}

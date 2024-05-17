@@ -1,4 +1,4 @@
-console.log("AFP C80 Charts");
+console.log("AFP C80 Charts 1.1");
 const inversionesContainer = document.querySelector(
   'div.c80_chart[data-grafico="inversiones"]'
 );
@@ -23,6 +23,22 @@ const inversionesData = afpc80data.inversiones.map((inversion) => {
   };
 });
 
+const inversionesDataAlt = [
+  {
+    name: "Inversiones",
+    type: "bar",
+    data: afpc80data.inversiones_alt.total_usd.map((usd, index) => {
+      return {
+        value: usd,
+        itemStyle: {
+          color: afpc80data.inversiones_alt.colors[index],
+        },
+      };
+    }),
+    colorBy: "data",
+  },
+];
+
 const inversionesOptions = {
   title: {
     text: inversionesContainer.getAttribute("data-title"),
@@ -37,35 +53,32 @@ const inversionesOptions = {
   },
   tooltip: {},
   legend: {
-    bottom: 10,
-    textStyle: {
-      color: "white",
-    },
+    show: false,
   },
   xAxis: {
-    type: "category",
-    data: ["Grupo Económico"],
+    data: afpc80data.inversiones_alt.grupo_economico,
     axisTick: {
       show: true,
       interval: 0,
     },
     axisLabel: {
-      show: false,
+      show: true,
+      interval: 0,
+      rotate: 45,
     },
   },
   yAxis: {},
-  series: inversionesData,
+  series: inversionesDataAlt,
   backgroundColor: "#092132",
 };
 
 inversiones.setOption(inversionesOptions);
-
+console.log(inversionesDataAlt);
 //2. Diagrama empresas
 
 const diagramaEmpresas = document.querySelector(
   'div.c80_diagram[data-diagram="empresas"]'
 );
-console.log(diagramaEmpresas);
 
 const dataProperty = window.innerWidth > 768 ? "width" : "height";
 

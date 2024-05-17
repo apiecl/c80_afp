@@ -24,6 +24,7 @@ function c80afp_enqueue()
         wp_enqueue_script('fontawesome', 'https://use.fontawesome.com/269614ad84.js#asyncload', array(), '4.7.0', true);
         wp_localize_script('afpcharts', 'afpc80data', [
             'inversiones'       => json_decode(file_get_contents(plugin_dir_path(__FILE__) . '/assets/data/grafico_inversiones.json')),
+            'inversiones_alt'   => json_decode(file_get_contents(plugin_dir_path(__FILE__) . '/assets/data/grafico_inversiones_alt.json')),
             'directores'        => json_decode(file_get_contents(plugin_dir_path(__FILE__) . '/assets/data/grafico_directores.json')),
             'pensiones_pagadas' => json_decode(file_get_contents(plugin_dir_path(__FILE__) . '/assets/data/grafico_pensiones_pagadas.json')),
             'comparativo'       => json_decode(file_get_contents(plugin_dir_path(__FILE__) . '/assets/data/grafico_comparativo_tipo_pension.json')),
