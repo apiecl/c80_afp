@@ -527,6 +527,8 @@ body h4 {
 }
 .c80_afp-section > div h3.chart-title {
   font-family: "Lato";
+  margin: 48px 0 24px 0;
+  font-size: 28px;
 }
 .c80_afp-section > div h2 {
   margin-bottom: 36px;

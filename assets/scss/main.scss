@@ -85,6 +85,8 @@ body {
 
     h3.chart-title {
       font-family: map.get($fonts, body_text);
+      margin: 48px 0 24px 0;
+      font-size: 28px;
     }
 
     h2 {
