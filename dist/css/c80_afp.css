@@ -437,11 +437,11 @@
   margin-bottom: 12px;
 }
 .c80_afp-section#leyes .icons-columns {
-  align-items: center;
+  align-items: center !important;
   justify-content: center;
 }
 .c80_afp-section#leyes .icons-columns img {
-  width: 220px;
+  height: 120px;
 }
 
 html {
@@ -525,6 +525,9 @@ body h4 {
   padding: 3px;
   color: #092132;
 }
+.c80_afp-section > div h3.chart-title {
+  font-family: "Lato";
+}
 .c80_afp-section > div h2 {
   margin-bottom: 36px;
   font-weight: 700;
@@ -551,6 +554,25 @@ body h4 {
 .c80_afp-section ol li,
 .c80_afp-section ul li {
   margin-bottom: 12px;
+}
+.c80_afp-section p.icon-lupa {
+  position: relative;
+  padding-left: 32px;
+  margin: 36px auto 24px auto;
+  padding-left: 36px;
+  display: flex;
+  align-items: center;
+}
+.c80_afp-section p.icon-lupa::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url("data:image/svg+xml,%3Csvg width='26' height='26' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.8759 10.9362C19.8759 12.9082 19.2356 14.7298 18.157 16.2077L23.5971 21.651C24.1343 22.1881 24.1343 23.0602 23.5971 23.5972C23.06 24.1343 22.1877 24.1343 21.6506 23.5972L16.2105 18.1539C14.7323 19.2365 12.9103 19.8724 10.9379 19.8724C6.00059 19.8724 2 15.8726 2 10.9362C2 5.9998 6.00059 2 10.9379 2C15.8753 2 19.8759 5.9998 19.8759 10.9362ZM10.9379 17.1228C11.7505 17.1228 12.5552 16.9628 13.3059 16.6519C14.0566 16.341 14.7388 15.8853 15.3134 15.3108C15.888 14.7363 16.3438 14.0543 16.6547 13.3037C16.9657 12.5531 17.1257 11.7486 17.1257 10.9362C17.1257 10.1238 16.9657 9.31928 16.6547 8.56868C16.3438 7.81809 15.888 7.13609 15.3134 6.56161C14.7388 5.98713 14.0566 5.53143 13.3059 5.22052C12.5552 4.90962 11.7505 4.7496 10.9379 4.7496C10.1253 4.7496 9.32071 4.90962 8.56997 5.22052C7.81923 5.53143 7.13709 5.98713 6.5625 6.56161C5.98791 7.13609 5.53212 7.81809 5.22115 8.56868C4.91019 9.31928 4.75013 10.1238 4.75013 10.9362C4.75013 11.7486 4.91019 12.5531 5.22115 13.3037C5.53212 14.0543 5.98791 14.7363 6.5625 15.3108C7.13709 15.8853 7.81923 16.341 8.56997 16.6519C9.32071 16.9628 10.1253 17.1228 10.9379 17.1228Z' fill='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 0;
 }
 
 .c80_afp-inicio {

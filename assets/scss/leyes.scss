@@ -25,10 +25,10 @@
     }
   }
   .icons-columns {
-    align-items: center;
+    align-items: center !important;
     justify-content: center;
     img {
-      width: 220px;
+      height: 120px;
     }
   }
 }
