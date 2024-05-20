@@ -288,7 +288,7 @@ const pensionesPagadasOptions = {
     left: "center",
     textStyle: {
       color: "white",
-      fontWeight: "normal",
+      fontWeight: "bold",
     },
   },
   textStyle: {
@@ -389,7 +389,7 @@ const comparativoPensionesOptions = {
     left: "center",
     textStyle: {
       color: "white",
-      fontWeight: "normal",
+      fontWeight: "bold",
     },
   },
   grid: {
@@ -546,7 +546,7 @@ const resumenOptions = {
     left: "center",
     textStyle: {
       color: "white",
-      fontWeight: "normal",
+      fontWeight: "bold",
     },
   },
   textStyle: {
