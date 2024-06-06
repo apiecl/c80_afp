@@ -372,6 +372,11 @@ div.c80_diagram {
 .c80_afp-section#conclusiones {
   background-color: #133550;
   padding-bottom: 48px;
+  h2.c80_afp-heading {
+    span {
+      background-color: #133550;
+    }
+  }
 }
 
 .c80_afp-section#conflictos {
