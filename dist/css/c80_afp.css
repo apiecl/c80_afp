@@ -756,6 +756,9 @@ div.c80_chart div.chart_legend {
   background-color: #133550;
   padding-bottom: 48px;
 }
+.c80_afp-section#conclusiones h2.c80_afp-heading span {
+  background-color: #133550;
+}
 
 .c80_afp-section#conflictos > div {
   max-width: 960px;

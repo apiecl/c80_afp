@@ -65,7 +65,6 @@ inversiones.setOption(inversionesOptions);
 const diagramaEmpresas = document.querySelector(
   'div.c80_diagram[data-diagram="empresas"]'
 );
-console.log(diagramaEmpresas);
 
 const dataProperty = window.innerWidth > 768 ? "width" : "height";
 
@@ -121,6 +120,8 @@ if (diagramaEmpresas) {
       selected.forEach((element) => element.classList.remove("active"));
     });
   });
+
+  diagramaEmpresas.innerHTML += `<div style="text-align:center;margin-bottom: 32px;">* Las empresas presentadas pertenecen a los respectivos grupos económicos, pero no necesariamente recibían inversiones de los fondos de pensiones.</div>`;
 }
 
 // Gráfico directores
@@ -283,7 +284,7 @@ const pensionesPagadasOptions = {
   },
   tooltip: {},
   legend: {
-    bottom: 10,
+    bottom: 1,
     textStyle: {
       color: "white",
     },
@@ -312,7 +313,7 @@ const pensionesPagadasOptions = {
     {
       type: "category",
       data: [
-        "Total autofinanciado\n (+ PGU / APS)",
+        "Total (autofinanciado\n + PGU / APS)",
         "Total autofinanciado\n (sin PGU / APS)",
         "Total entre 30-35\n años de cotización (autofinanciado + PGU/ APS)",
         "Total entre 30-35\n años de cotización (autofinanciado sin PGU / APS)",
@@ -325,7 +326,7 @@ const pensionesPagadasOptions = {
         interval: 0,
         show: true,
         width: 200,
-        overflow: "truncate",
+        overflow: "break",
         ellipsis: "...",
         hideOverlap: false,
       },
@@ -425,7 +426,17 @@ const comparativoPensionesOptions = {
       type: "bar",
       colorBy: "data",
       data: afpc80data.comparativo.monto_promedio.map((monto, index) => {
-        const color = index < 4 ? "#D02427" : index < 8 ? "#0E78F4" : "#D511DD";
+        let color;
+        if (index === 0) {
+          color = "#FFF";
+        } else if (index < 5) {
+          color = "#D02427";
+        } else if (index < 9) {
+          color = "#0E78F4";
+        } else {
+          color = "#D511DD";
+        }
+        //const color = index < 5 ? "#D02427" : index < 9 ? "#0E78F4" : "#D511DD";
         return {
           value: monto,
           itemStyle: {
@@ -495,9 +506,10 @@ resumenElement.appendChild(resumenChart);
 resumenElement.appendChild(resumenLegend);
 
 resumenLegend.innerHTML = `
-  <p><strong>PGU:</strong> Pensión Garantizada Universal (estatal).</p>
-  <p><strong>APS:</strong> Aporte Previsional Solidario (estatal).</p>
-  <p>Datos de Fundación SOL en base a solicitudes por Ley de Transparencia a DIPRECA y CAPREDENA y datos publicados por la Superintendencia 
+  <p style="font-size:16px; text-align: center;">Promedio de pensiones pagadas por persona  en CLP.</p>
+  <p style="font-size:14px; text-align: left;"><strong>PGU:</strong> Pensión Garantizada Universal (estatal).</p>
+  <p style="font-size:14px; text-align: left;"><strong>APS:</strong> Aporte Previsional Solidario (estatal).</p>
+  <p style="font-size:14px; text-align: left;">Datos de Fundación SOL en base a solicitudes por Ley de Transparencia a DIPRECA y CAPREDENA y datos publicados por la Superintendencia 
   de Pensiones.</p>`;
 
 const resumenColors = ["#5288DA", "#E35E26", "#D62E2F", "#D511DD"];
@@ -547,19 +559,19 @@ const resumenOptions = {
     },
     data: [
       {
-        name: "Mujeres",
+        name: "PGU",
         itemStyle: {
           color: resumenColors[0],
         },
       },
       {
-        name: "Hombres",
+        name: "Mujeres",
         itemStyle: {
           color: resumenColors[1],
         },
       },
       {
-        name: "PGU",
+        name: "Hombres",
         itemStyle: {
           color: resumenColors[2],
         },
@@ -599,7 +611,6 @@ resumen.setOption(resumenOptions);
 const sections = document.querySelectorAll(".c80_afp-section");
 const menuContainer = document.querySelector(".c80_afp-menu");
 
-console.log(sections);
 const sectionTitles = [
   "Orígenes",
   "Leyes",
