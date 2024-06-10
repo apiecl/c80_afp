@@ -67,7 +67,15 @@ const inversionesOptions = {
       rotate: 45,
     },
   },
-  yAxis: {},
+  yAxis: {
+    splitLine: {
+      show: true,
+      lineStyle: {
+        color: "#193547",
+        type: "dashed",
+      },
+    },
+  },
   series: inversionesDataAlt,
   backgroundColor: "#092132",
 };
@@ -247,7 +255,7 @@ pensionesPagadasContainer.appendChild(pensionesPagadasLegend);
 
 pensionesPagadasLegend.innerHTML = `
 <p>Mediana, en pesos chilenos al 31/12/2023.</p>
-<p>
+<p style="text-align: left">
 <strong>PGU:</strong> Pensión Garantizada Universal (estatal).<br/>
 <strong>APS:</strong> Aporte Previsional Solidario (estatal). 
 </p>`;
@@ -349,6 +357,13 @@ const pensionesPagadasOptions = {
   yAxis: [
     {
       type: "value",
+      splitLine: {
+        show: true,
+        lineStyle: {
+          color: "#193547",
+          type: "dashed",
+        },
+      },
     },
   ],
   series: pensionesPagadasData,
@@ -433,6 +448,13 @@ const comparativoPensionesOptions = {
   },
   yAxis: {
     type: "value",
+    splitLine: {
+      show: true,
+      lineStyle: {
+        color: "#193547",
+        type: "dashed",
+      },
+    },
   },
   series: [
     {
@@ -520,7 +542,7 @@ resumenElement.appendChild(resumenChart);
 resumenElement.appendChild(resumenLegend);
 
 resumenLegend.innerHTML = `
-  <p style="font-size:16px; text-align: center;">Promedio de pensiones pagadas por persona  en CLP.</p>
+  <p style="margin-top: 0;font-size:16px; text-align: center;">Promedio de pensiones pagadas por persona  en CLP.</p>
   <p style="font-size:14px; text-align: left;"><strong>PGU:</strong> Pensión Garantizada Universal (estatal).</p>
   <p style="font-size:14px; text-align: left;"><strong>APS:</strong> Aporte Previsional Solidario (estatal).</p>
   <p style="font-size:14px; text-align: left;">Datos de Fundación SOL en base a solicitudes por Ley de Transparencia a DIPRECA y CAPREDENA y datos publicados por la Superintendencia 
@@ -528,6 +550,35 @@ resumenLegend.innerHTML = `
 
 const resumenColors = ["#5288DA", "#E35E26", "#D62E2F", "#D511DD"];
 const resumen = echarts.init(resumenChart);
+
+const resumenDataAlt = [
+  {
+    name: "Resumen",
+    type: "bar",
+    data: afpc80data.resumen.montos.map((monto, index) => {
+      return {
+        value: monto,
+        label: {
+          show: true,
+          position: "top",
+          value: afpc80data.resumen.grupos[index],
+          formatter: (params) => {
+            return params.value
+              .toLocaleString("es-ES", {
+                style: "currency",
+                currency: "CLP",
+              })
+              .replace("CLP", "");
+          },
+        },
+        itemStyle: {
+          color: resumenColors[index],
+        },
+      };
+    }),
+  },
+];
+
 const resumenData = afpc80data.resumen.montos.map((monto, index) => {
   return {
     name: afpc80data.resumen.grupos[index],
@@ -567,54 +618,32 @@ const resumenOptions = {
   },
   tooltip: {},
   legend: {
-    bottom: 10,
-    textStyle: {
-      color: "white",
-    },
-    data: [
-      {
-        name: "PGU",
-        itemStyle: {
-          color: resumenColors[0],
-        },
-      },
-      {
-        name: "Mujeres",
-        itemStyle: {
-          color: resumenColors[1],
-        },
-      },
-      {
-        name: "Hombres",
-        itemStyle: {
-          color: resumenColors[2],
-        },
-      },
-      {
-        name: "FFAA y Policías",
-        itemStyle: {
-          color: resumenColors[3],
-        },
-      },
-    ],
+    show: false,
   },
   xAxis: {
     type: "category",
-    data: ["Promedio de pensiones pagadas por persona  en CLP"],
+    data: afpc80data.resumen.grupos,
     axisTick: {
       show: false,
       interval: 0,
     },
     axisLabel: {
       interval: 0,
-      show: false,
+      show: true,
       width: 200,
     },
   },
   yAxis: {
     type: "value",
+    splitLine: {
+      show: true,
+      lineStyle: {
+        color: "#193547",
+        type: "dashed",
+      },
+    },
   },
-  series: resumenData,
+  series: resumenDataAlt,
   backgroundColor: "#092132",
 };
 

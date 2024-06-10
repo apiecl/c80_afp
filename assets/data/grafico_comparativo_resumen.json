@@ -1,4 +1,5 @@
 {
   "montos": [193000, 226187, 361579, 1337662],
-  "grupos": ["PGU", "Mujeres", "Hombres", "FFAA y Policías"]
+  "grupos": ["PGU", "Mujeres", "Hombres", "FFAA y Policías"],
+  "colors": ["#5288DA", "#E35E26", "#D62E2F", "#D511DD"]
 }

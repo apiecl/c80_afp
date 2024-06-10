@@ -738,7 +738,10 @@ div.c80_chart[data-grafico=pensiones-pagadas] {
 div.c80_chart[data-grafico=pensiones-pagadas] > div.chart_container, div.c80_chart[data-grafico=comparativa-resumen] > div.chart_container {
   min-height: 300px;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 0;
+}
+div.c80_chart [data-grafico=pensiones-pagadas] > div.chart_container {
+  margin-bottom: 0;
 }
 div.c80_chart[data-grafico=comparativa-pensiones] > div.chart_container {
   min-height: 800px;
