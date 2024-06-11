@@ -314,6 +314,10 @@ div.c80_chart {
     min-height: 300px;
   }
 
+  &[data-grafico="comparativa-resumen"] {
+    min-height: 430px;
+  }
+
   &[data-grafico="pensiones-pagadas"] > div.chart_container,
   &[data-grafico="comparativa-resumen"] > div.chart_container {
     min-height: 300px;
@@ -381,6 +385,10 @@ div.c80_diagram {
       background-color: #133550;
     }
   }
+  ul li,
+  ol li {
+    margin-bottom: 12px;
+  }
 }
 
 .c80_afp-section#conflictos {
@@ -390,6 +398,7 @@ div.c80_diagram {
 }
 
 #footer {
+  padding-top: 36px;
   > div {
     max-width: 1200px;
     margin: 0 auto;
@@ -405,8 +414,15 @@ div.c80_diagram {
       list-style: none;
       padding: 0;
       margin: 0;
-      margin-bottom: 6px;
+      margin-bottom: 16px;
     }
+    ol li {
+      margin-bottom: 16px;
+    }
+  }
+  .logo-fondart {
+    margin-left: 40px;
+    margin-top: 24px;
   }
 }
 

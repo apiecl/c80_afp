@@ -735,6 +735,9 @@ div.c80_chart[data-grafico=inversiones] > div.chart_container {
 div.c80_chart[data-grafico=pensiones-pagadas] {
   min-height: 300px;
 }
+div.c80_chart[data-grafico=comparativa-resumen] {
+  min-height: 430px;
+}
 div.c80_chart[data-grafico=pensiones-pagadas] > div.chart_container, div.c80_chart[data-grafico=comparativa-resumen] > div.chart_container {
   min-height: 300px;
   margin-top: 40px;
@@ -793,11 +796,18 @@ div.c80_chart div.chart_legend {
 .c80_afp-section#conclusiones h2.c80_afp-heading span {
   background-color: #133550;
 }
+.c80_afp-section#conclusiones ul li,
+.c80_afp-section#conclusiones ol li {
+  margin-bottom: 12px;
+}
 
 .c80_afp-section#conflictos > div {
   max-width: 960px;
 }
 
+#footer {
+  padding-top: 36px;
+}
 #footer > div {
   max-width: 1200px;
   margin: 0 auto;
@@ -815,7 +825,14 @@ div.c80_chart div.chart_legend {
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-bottom: 6px;
+  margin-bottom: 16px;
+}
+#footer > div ol li {
+  margin-bottom: 16px;
+}
+#footer .logo-fondart {
+  margin-left: 40px;
+  margin-top: 24px;
 }
 
 header#inicio {
