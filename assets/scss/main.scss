@@ -49,8 +49,6 @@ body {
   margin-bottom: 12px;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .c80_afp-section {
@@ -249,6 +247,10 @@ body {
       direction: ltr;
       .tl-caption {
         color: white;
+        .tl-altcredit {
+          display: block;
+          opacity: 0.4;
+        }
       }
       .tl-text {
         h2,
@@ -290,19 +292,20 @@ div.c80_chart {
     text-align: center;
   }
 
+  &[data-grafico="inversiones"] {
+    @media (max-width: 768px) {
+      height: 788px;
+    }
+  }
+
   @media (min-width: 1200px) {
     margin-left: calc(-1068px / 2 + $content_width / 2);
     margin-right: calc(-1068px / 2 + $content_width / 2);
   }
   @media (max-width: 768px) {
-    overflow: scroll;
+    overflow-x: scroll;
     > div {
       width: 908px;
-    }
-    &[data-grafico="inversiones"] {
-      > div {
-        min-height: 700px;
-      }
     }
   }
 

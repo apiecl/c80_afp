@@ -490,8 +490,6 @@ body h4 {
   margin-bottom: 12px;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .c80_afp-section {
@@ -676,6 +674,10 @@ body h4 {
 .afp-timeline-wrapper#afp_timeline .tl-slide .tl-slide-content .tl-caption {
   color: white;
 }
+.afp-timeline-wrapper#afp_timeline .tl-slide .tl-slide-content .tl-caption .tl-altcredit {
+  display: block;
+  opacity: 0.4;
+}
 .afp-timeline-wrapper#afp_timeline .tl-slide .tl-slide-content .tl-text h2,
 .afp-timeline-wrapper#afp_timeline .tl-slide .tl-slide-content .tl-text h3 {
   text-align: left;
@@ -712,6 +714,11 @@ div.c80_chart {
 div.c80_chart p.postlegend {
   text-align: center;
 }
+@media (max-width: 768px) {
+  div.c80_chart[data-grafico=inversiones] {
+    height: 788px;
+  }
+}
 @media (min-width: 1200px) {
   div.c80_chart {
     margin-left: -166px;
@@ -720,13 +727,10 @@ div.c80_chart p.postlegend {
 }
 @media (max-width: 768px) {
   div.c80_chart {
-    overflow: scroll;
+    overflow-x: scroll;
   }
   div.c80_chart > div {
     width: 908px;
-  }
-  div.c80_chart[data-grafico=inversiones] > div {
-    min-height: 700px;
   }
 }
 div.c80_chart[data-grafico=inversiones] > div.chart_container {
